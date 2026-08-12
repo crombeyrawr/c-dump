@@ -10,7 +10,7 @@ int main() {
     printf("Virtual Address of the variable: %p\n", &my_variable);
     printf("Value stored in the variable %d\n", my_variable);
    
-    sleep(20);
+    sleep(300);
     return 0;
 }
 /* Cada processo tem seu próprio espaço de endereço virtual.
