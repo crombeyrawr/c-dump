@@ -19,3 +19,4 @@ Dois processos diferentes podem usar o mesmo endereço virtual, mas não apontam
 
 // Para provar o conceito acima, é necessario compilar sem ASLR e abrir o mesmo binario em 2 terminais diferente.
 // gcc -no-pie -o no_aslr get_pid.c
+// Disponibilizei uma imagem (memorypoc.png) que mostra na pratica o que falei acima.
